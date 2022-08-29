@@ -4,14 +4,14 @@ html {
 
 body {
     margin: auto;
-    width: 75%;
+    width: 900px;
     background-color: #FFFFFF;
 }
 
 /* navigation bar */
 #container-top {
     width: 100%;
-    height: 70px;
+    height: 100px;
 }
 
 #nav-bar {
@@ -19,46 +19,22 @@ body {
     height: 100%;
 }
 
-#uic-svg {
-    padding: 5px 5px 5px 5px;
-    height: 50px;
-    width: 50px;
+#uic-brand-mark {
+    padding: 5px 0px 0px 5px;
+    width:auto;
+    height: 60px;
 }
 
-.nav-container-left {
-    float: left;
-    width: 80%;
-}
-
-.nav-container-right {
-    float: right;
-    width: 20%;
-}
-
-.logo-left {
-    float: left;
-    width: 30%;
-}
-
-.logo-right {
-    float: right;
-    width: 70%;
-}
-
-.nav-text {
+.nav-item {
     color:#011E62;
+     /* top | right | bottom | left */
+     padding: 0px 0px 0px 20px;
+     font-size: large;
+     width:100%;
 }
 
-.logo-text {
-    font-size: large;
-}
-
-.nav-container-left {
-    float: left; width: 20%
-}
-
-.nav-container-right {
-    float: right; width: 80%
+i {
+    color:#011E62;
 }
 
 a {
